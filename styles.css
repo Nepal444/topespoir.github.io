@@ -6,7 +6,18 @@ body {
   padding: 0;
   margin: 0;
 }
+.group1, .group2 {
+    position: relative;
+    z-index: 1;
+    -webkit-z-index: 1;
+    -moz-z-index: 1;
+}
 
+.group2 {
+    z-index: -1;
+    -webkit-z-index: -1;
+    -moz-z-index: -1;
+}
 .FirstTitle {
   font-size: 90px;
   text-transform: uppercase;
