@@ -5,6 +5,7 @@
 body {
     padding: 0;
     margin: 0;
+    font-family: 'Gambetta', serif;
 }
 
 @media (max-width:480px) {
@@ -670,32 +671,76 @@ li {
 #group5{
     background: #FFD6BD;
 }
-
-#testul{
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-    
-}
-#testul i{
+.titlegroup5{
+    font-size: 30px; 
+    margin-top: 100px;
+    font-weight: 500;
+    text-transform: uppercase;
     text-align: center;
-    list-style: none;
-    flex-direction: column;
-    font-size: 20px;
-    background: #8f2424;    
-   
+    color: #DC1C3A;
 }
-#group5  li{
-    font-family: 'Fira code', serif;
-    text-align: center;
+.parent {
     list-style: none;
-    
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: repeat(7, 1fr);
+    grid-column-gap: 0px;
     font-size: 20px;
-    margin: 50px;
-    flex: 0 0 300px;
-  
+    grid-row-gap: 0px;
+    ;
+    }
     
+    .div1 { grid-area: 3 / 2 / 4 / 3 ;
+        display: flex;
+        text-align: center;
+        flex-direction: column;
+        font-weight: 300
+    }
+    .div2 { grid-area: 3 / 4 / 4 / 5; display: flex;
+        align-items: center;
+        text-align: center;
+        flex-direction: column;}
+    .div3 { grid-area: 3 / 6 / 4 / 7;display: flex;
+        align-items: center;
+        text-align: center;
+        flex-direction: column; }
+    .div4 { grid-area: 5 / 2 / 6 / 3; display: flex;
+        align-items: center;
+        text-align: center;
+        flex-direction: column;}
+    .div5 { grid-area: 5 / 4 / 6 / 5; display: flex;
+        align-items: center;
+        text-align: center;
+        flex-direction: column;}
+    .div6 { grid-area: 5 / 6 / 6 / 7;display: flex;
+        align-items: center;
+        text-align: center;
+        flex-direction: column; }
+    
+    .div1 i{
+       font-size: 30px;
+       margin-bottom: 5%;
+    }
+    .div2 i{
+        font-size: 30px;
+        margin-bottom: 5%;
+     }
+     .div3 i{
+        font-size: 30px;
+        margin-bottom: 5%;
+     }
+     .div4 i{
+        font-size: 30px;
+        margin-bottom: 5%;
+     }
+     .div5 i{
+        font-size: 30px;
+        margin-bottom: 5%;
+     }
+     .div6 i{
+        font-size: 30px;
+        margin-bottom: 5%;
+     }
 }
     #group3,
     .parallax__layer+.parallax__layer--back {
