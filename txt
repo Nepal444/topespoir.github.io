@@ -1,0 +1,30 @@
+ <div class="box">
+      <ul>#1</ul>
+      <img  id="ImgBoob" src="image/Autopalpation/1autopalpation.png" alt="drawofpalpationboob" >
+      <p id="textboob">Regardez vos deux seins devant le miroir et vérifiez qu'il n'y a rien d'inhabituel : écoulement, plis, crevasses, peau qui pèle...</p>
+    </div>
+
+    <div class="box">
+      <ul>#2</ul>
+      <img  id="ImgBoob" src="image/Autopalpation/2autopalpation.png" alt="drawofpalpationboob" >
+      <p>Avec 3 doigts, palpez le sein opposé : parcourez le sein en effectuant de petits cercles avec les bouts des doigts.</p>
+    </div>
+
+    <div class="box">
+      <ul>#3</ul>
+      <img  id="ImgBoob" src="image/Autopalpation/3autopalpation.png" alt="drawofpalpationboob" >
+      <p id="textboob">Vérifiez aussi la zone entre le sein et l'aisselle. Cherchez toute grosseur ou tout durcissement anormal sous la peau.</p>
+    </div>
+
+    <div class="box">
+      <ul>#4</ul>
+      <img  id="ImgBoob" src="image/Autopalpation/4autopalpation.png" alt="drawofpalpationboob" >
+      <p id="textboob">Pressez délicatement le mamelon et vérifiez qu'aucun écoulement quelconque ne se produit. Si c'est le cas, prévenez votre médecin sans attendre !</p>
+    </div>
+
+    <div class="box">
+      <ul>#5</ul>
+      <img  id="ImgBoob" src="image/Autopalpation/1autopalpation.png" alt="drawofpalpationboob" >
+      <p id="textboob">Répétez l'opération 
+      de l'autre coté.</p>
+    </div>
