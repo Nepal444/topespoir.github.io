@@ -583,7 +583,7 @@ body {
 }
 
 /*FOR IPHONE 7 AND 8 AND S8+ULTRA*/
-@media (max-width:390px) {
+@media (min-width: 376px) and (max-width:390px) {
 	#groupAutopalpation{
         margin-top: 10px;
         padding: 0;
@@ -600,6 +600,25 @@ body {
 .parent {
 	margin-top: -90px;
 }
+}
+@media (min-width: 0px) and (max-width:375px) {
+	#groupAutopalpation{
+        margin-top: 10px;
+        padding: 0;
+        background: #C93149;
+		height: 190%;
+        width: 100%;
+        
+    }
+	#group5 {
+		background: #fbaf80;
+		height: 110vh;
+}
+
+.parent {
+	margin-top: -90px;
+}
+	
 }
 @media (min-width: 481px) and (max-width: 1380px) {
 	/*End of mobile*/
