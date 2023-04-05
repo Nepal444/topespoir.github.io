@@ -248,14 +248,14 @@ body {
 		text-align: center;
 		font-size: 30px;
 		margin: 3%;
-		color: #dbd9d9;
+		color: #ffffff;
     }
     #h4autopalpation{
 		text-align: center;
 		font-weight: 600;
 		margin-top: -30px;
         flex-direction: row;
-		color: #dbd9d9;
+		color: #fffcfc;
     }
 	#importanttext{
 		font-weight: bold;
@@ -582,6 +582,25 @@ body {
 
 }
 
+/*FOR IPHONE 7 AND 8 AND S8+ULTRA*/
+@media (max-width:390px) {
+	#groupAutopalpation{
+        margin-top: 10px;
+        padding: 0;
+        background: #C93149;
+		height: 170%;
+        width: 100%;
+        
+    }
+	#group5 {
+		background: #fbaf80;
+		height: 110vh;
+}
+
+.parent {
+	margin-top: -90px;
+}
+}
 @media (min-width: 481px) and (max-width: 1380px) {
 	/*End of mobile*/
 
