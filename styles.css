@@ -1229,9 +1229,9 @@ body {
 	}
 
 	#image5 {
-		filter: blur(2px);
-		opacity: 40%;
-        height: 0%;
+		filter: blur(4px);
+		opacity: 60%;
+        height: 100%;
         width: 100%;
 	}
 
